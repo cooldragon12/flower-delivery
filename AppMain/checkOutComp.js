@@ -8,12 +8,12 @@ import {style} from './comp'
 import { Root, Popup } from 'popup-ui'
 
 export function CheckoutComponent(){
-    const [state, setState] = useState({
+    const [state,setState] = useState( {
         radioButtons: [
           {
             label: 'Door delivery',
             value: 'DoorDelivery',
-            key:'1',
+            key:1,
             checked: true,
             color: redBiege,
             disabled: false,
@@ -21,7 +21,7 @@ export function CheckoutComponent(){
             size: 13
           },
           {
-            key:'2',
+            key:2,
             label: 'Pick up',
             value: 'PickUp',
             checked: false,
@@ -32,8 +32,10 @@ export function CheckoutComponent(){
           }
         ]
         })
+        let selected = state.radioButtons.find(r => r.checked == true);
+        selected = selected ? selected.value : state.radioButtons[0].value;
     return(
-        <View style={{flex:1}}>
+        <Root style={{flex:1}}>
             <Text style={{color:redBiege, fontWeight:"bold", fontSize:24, margin:"8%"}}>Delivery Information</Text>
             <View >
                 {/* Main */}
@@ -73,12 +75,16 @@ export function CheckoutComponent(){
                     <Button  onPress={()=>Popup.show({
                         type: 'Warning',
                         title: 'Something wrong',
-                        button: false,
+                        button: true,
                         textBody: 'Something is mising',
                         buttontext: 'Ok',
-                        callback: () => Popup.hide()})} title="Proceed to payment" titleStyle={{color:white}} buttonStyle={{borderRadius:15, paddingVertical:"2%",backgroundColor:redBiege}}/>
+                        callback: () => Popup.hide()
+                        })
+                        } 
+                        
+                        title="Proceed to payment" titleStyle={{color:white}} buttonStyle={{borderRadius:15, paddingVertical:"2%",backgroundColor:redBiege}}/>
                 </View>
             </View>
-        </View>
+        </Root>
     )
 }
