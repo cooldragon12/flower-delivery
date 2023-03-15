@@ -1,7 +1,7 @@
 # Flueriste | Flower Delivery App 
 Summative Assessment for ITCS112 
 ## Description
-Fleuriste is a flower delivery business that offers a variety of flowers up for grabs, its design is intended to look soft to cater to women audiences. This app shines during occassional events such as Valentines, Mothers/Fathers Day, Anniversaries, and even Birthdays.
+As a part-time backend developer, I specialize in building robust web applications using Django Framework and REST API. I am currently pursuing a degree in Computer Science with a specialization in Intelligent Systems, I am passionate about developing innovative solutions that leverage the latest technologies and constantly strive to advance my skills. As a researcher, I enjoy learning about new technologies and exploring the latest trends in the field. In my spare time, I enjoy pursuing my passion for photography, particularly capturing images of small things and landscapes.
 ### Prototype Design
 Flueriste Prototype Figma
 [Click Here](https://www.figma.com/file/Hag8YoVqMUptSXepKEBGFt/Flower-Delivery-Application)
