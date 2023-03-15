@@ -1,7 +1,7 @@
 # Flueriste | Flower Delivery App 
 Summative Assessment for ITCS112 
 ## Description
-As a part-time backend developer, I specialize in building robust web applications using Django Framework and REST API. I am currently pursuing a degree in Computer Science with a specialization in Intelligent Systems, I am passionate about developing innovative solutions that leverage the latest technologies and constantly strive to advance my skills. As a researcher, I enjoy learning about new technologies and exploring the latest trends in the field. In my spare time, I enjoy pursuing my passion for photography, particularly capturing images of small things and landscapes.
+Fleuriste is a mobile flower delivery app created with React Native Expo. It was made as a component of an educational project and is aimed at female viewers. It sells a wide range of flowers, and its gentle, graceful aesthetic suits the products sold. Users can use Fleuriste to browse through the various flower alternatives, select the appropriate bouquet, and set a delivery day and time. It also provides a straightforward and secure payment method, allowing customers to quickly finalize their orders.
 ### Prototype Design
 Flueriste Prototype Figma
 [Click Here](https://www.figma.com/file/Hag8YoVqMUptSXepKEBGFt/Flower-Delivery-Application)
