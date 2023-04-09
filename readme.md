@@ -1,7 +1,7 @@
 # Flueriste | Flower Delivery App 
 Summative Assessment for ITCS112 
 ## Description
-Fleuriste is a mobile flower delivery app created with React Native Expo. It was made as a component of an educational project and is aimed at female viewers. It sells a wide range of flowers, and its gentle, graceful aesthetic suits the products sold. Users can use Fleuriste to browse through the various flower alternatives, select the appropriate bouquet, and set a delivery day and time. It also provides a straightforward and secure payment method, allowing customers to quickly finalize their orders.
+Fleuriste is a sophisticated mobile flower delivery application developed using React Native Expo. Designed as part of an educational initiative, it caters to a predominantly female audience. Fleuriste offers an extensive selection of flowers, presented in a refined and elegant manner that complements the products available. The application allows users to peruse the various floral options, choose their desired bouquet, and schedule delivery at their convenience. Additionally, Fleuriste provides a secure and user-friendly payment system, enabling customers to effortlessly complete their transactions.
 ### Prototype Design
 Flueriste Prototype Figma
 [Click Here](https://www.figma.com/file/Hag8YoVqMUptSXepKEBGFt/Flower-Delivery-Application)
@@ -50,9 +50,6 @@ Johndel Encabo
 ## Version History
 * 0.1
 * Initial Release
-
-## License
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
 ## Acknowledgments
 Inspiration, code snippets, etc.
